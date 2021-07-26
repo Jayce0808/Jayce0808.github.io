@@ -6,6 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://kit.fontawesome.com/e50444889a.js" crossorigin="anonymous"></script>
 	</head>
 
     <body>
@@ -59,26 +60,48 @@
                     Contact Me
                 </h1>
                 <p>
-                    Text
+                    Contact me using the form below, emailing me directly or through any of the linked social media!
                 </p>
+                <aside style="float:right">
+                    <address style = "margin: 0;">
+                        <h2 style = "margin: 0;">Email</h2>
+                        <pre style = "margin: 0;">jbirrell88@gmail.com</pre>
+                        <h2 style = "margin: 0;">Social Media</h2>
+                        <nav style= "font-size: 1.5em;">
+                            <a href = "https://www.linkedin.com/in/jayceb/"><i class="fab fa-linkedin"></i></a>
+                            <a href = "https://github.com/Jayce0808"><i class="fab fa-github-square"></i></a>
+                        </nav>
+                    </address>
+                </aside>
                 <form method="POST" action="https://formspree.io/f/xwkaeagz">
-                    <div class="fields">
-                        <div class="field half">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" id="name" />
-                        </div>
-                        <div class="field half">
-                            <label for="email">Email</label>
-                            <input type="text" name="email" id="email" />
-                        </div>
-                        <div class="field">
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="3"></textarea>
+                    <div>
+                        <ul style="list-style-type: none; padding-left: 0; ">
+                            <li style="float: left; margin-right: 10%; width: 15em">
+                                <label for="name" style="width: 100%">Name</label>
+                                <input type="text" name="name" id="name" style="height: 3em; width: 100%; display: block;"/>
+                            </li>
+                            <li style="float: left; width: 20em">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" style="height: 3em; width: 100%; display: block;"/>
+                            </li>
+                            <!-- <li style="float: left">
+                                <label for="message">Message</label>
+                                <input type="text" name="message" id="message" style="height: 25em; width: 100%"></input>
+                            </li> -->
+                        </ul>
+                            <!-- <label for="name" style="float: left; width: 30%">Name</label>  -->
+                            <!-- <label for="email" style = "float:left;">Email</label>
+                            <h2 style="float: right">Email</h2><br>
+                            <input type="text" name="name" id="name" style="height: 3em; width: 20%; float: left; display: block; margin-right: 10%;"/>
+                            <input type="text" name="email" id="email" style="height: 3em; width: 30%; float: left; display: block;"/>
+                            <br> -->
+                        <div style = "clear: both;">
+                            <label for="message">Message</label><br>
+                            <input type="text" name="message" id="message" style="height: 25em; width: 100%"></input>
                         </div>
                     </div>
-                    <ul class="actions">
-                        <li><a href="" class="button submit">Send Message</a></li>
-                    </ul>
+                    <br>
+                    <a href="" class="button submit">Send Message</a>
                 </form>
             </div>
         </main>
