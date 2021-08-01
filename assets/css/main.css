@@ -80,6 +80,7 @@ html {
     z-index: 2;
     background-size: 100% 2px, 3px 100%;
     pointer-events: none;
+    min-height: 100%;
 }
   
 .crt::after {
@@ -95,6 +96,7 @@ html {
     z-index: 2;
     pointer-events: none;
     animation: flicker 0.15s infinite;
+    min-height: 100%;
 }
 
 @media (prefers-reduced-motion: reduce) 
@@ -112,11 +114,15 @@ main
     padding-left: 4em;
     padding-right: 4em;
     background-color: rgb(0,11,0);
+    height: 100%;
+    display:inline-block
 }
 
 body
 {
     background-color: rgb(25, 25, 30);
+    height: 100%;
+    display:inline-block
 }
 
 body::after {
@@ -130,15 +136,23 @@ body::after {
 
 header
 {
-    font-family: 'Courier New', Courier, monospace;
-    color:black;
     z-index:1;
     display:inline-block;
     background-color: rgb(0,238,0);
     position: fixed;
     width:calc(100% - 2em);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 5em;
     text-align: end;
-    padding:1em;
+}
+
+header>a{
+    font-family: 'Courier New', Courier, monospace;
+    color:black; 
+    padding-left: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #terminal
@@ -157,19 +171,20 @@ header
     z-index: 2;
     pointer-events: none;
     font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+    display:inline-block;
 }
 
 a{
     text-decoration: none;
-    font-size: 1.2em;
     font-weight: bold;
-    background-color: green;
     padding: 1px;
+    color: rgb(0,238,0);
 }
 
-a
-{
-    color: black;
+address a{
+    color: rgb(0,238,0);
+    font-size: 2em;
 }
 
 p{
@@ -188,29 +203,9 @@ h3{
 
 h1
 {
+    clear: both;
     font-family: 'Courier New', Courier, monospace;
     font-size: 5em;
-}
-
-.typewriter {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(0,238,0); /* The typwriter cursor */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
-}
-  
-/* The typing effect */
-@keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-}
-  
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0,238,0); }
 }
 
 h2
@@ -226,9 +221,40 @@ label
     font-weight: bold;
 }
 
-input{
+input, textarea{
     color: rgb(0,238,0);
     border: 2px solid rgb(0,238,0);
     border-radius: 1em;
     background-color: rgb(0,11,0);
+    font-size: 1.5em; 
+    padding-left: 0.5em;
+}
+
+.link
+{
+    position:absolute;
+    margin-top:-120px;
+    padding-bottom: 120px;
+    display: inline-block;
+}
+
+div{
+    clear: "both";
+}
+
+.button
+{
+    color: rgb(0,238,0);
+    font-size: 2em;
+    border: rgb(0,238,0);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -55px; 
+    height: 55px; 
+    visibility: hidden; 
+    pointer-events: none;
 }

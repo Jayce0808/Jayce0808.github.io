@@ -2,11 +2,12 @@
 
 <html>
 	<head>
-		<title>Jayce Protfolio</title>
+		<title>Jayce Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
         <script src="https://kit.fontawesome.com/e50444889a.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/png" href="images/jayceus_bot.png">
 	</head>
 
     <body>
@@ -18,49 +19,50 @@
             <a href = "#contactMe">Contact Me</a>
         </header>
         <main>
-            <div id = "home" class="typewriter"> 
+            <div> 
+                <span class = "link" id = "home">
+                </span> 
                 <h1>
                     Home
                 </h1>
                 <p>
                     Welcome to my portfolio! Through this page you can learn more about myself as well as my projects and contact me if you wish.
                     <br>
-                    <ul>
-                        <li style="list-style-type: none; padding-left: 0; float: left; margin-right: 10%; width: 15em">
-                            <h2 style = "float: left; display: block;">Skills</h2>
-                            <ul style = "float: left; display: block;">
-                                <h3>
-                                    <li>MERN Stack</li>
-                                    <li>Python</li>
-                                    <li>Java</li>
-                                    <li>C</li>
-                                    <li>Unity</li>
-                                    <li>MySQL</li>
-                                    <li>HTML & CSS</li>
-                                </h3>
-                            </ul>
-                        </li>
-                        <li style="list-style-type: none; padding-left: 0; float: left; margin-right: 10%; width: 45em">
-                            <h2 style = "float: left">Education</h2>
-                            <ul style = "float: left; display: block;">
-                                <h3>
-                                    <li>Bachelor of Science Major in Computing and Software Systems</li>
-                                    <ul>
-                                        <li>University of Melbourne</li>
-                                    </ul>
-                                    <li>Year 12</li>
-                                    <ul>
-                                        <li>Australian Science and Mathematics School</li>
-                                    </ul>
-                                </h3>
-                            </ul>
-                        </li>
-                    </ul>
                 </p>
-                <br><br><br><br><br><br><br><br><br><br><br>
+                <ul>
+                    <li style="list-style-type: none; padding-left: 0; float: left; margin-right: 10%; width: 15em">
+                        <h2 style = "float: left; display: block;">Skills</h2>
+                        <ul style = "float: left; display: block;">
+                            <h3>
+                                <li>MERN Stack</li>
+                                <li>Python</li>
+                                <li>Java</li>
+                                <li>C</li>
+                                <li>Unity</li>
+                                <li>MySQL</li>
+                                <li>HTML & CSS</li>
+                            </h3>
+                        </ul>
+                    </li>
+                    <li style="list-style-type: none; padding-left: 0; float: left; margin-right: 10%; width: 45em">
+                        <h2 style = "float: left">Education</h2>
+                        <ul style = "float: left; display: block;">
+                            <h3>
+                                <li>Bachelor of Science Major in Computing and Software Systems</li>
+                                <ul>
+                                    <li>University of Melbourne</li>
+                                </ul>
+                                <li>Year 12</li>
+                                <ul>
+                                    <li>Australian Science and Mathematics School</li>
+                                </ul>
+                            </h3>
+                        </ul>
+                    </li>
+                </ul>
             </div>
-            <div id = "aboutMe"> 
-                <h1>
+            <div>
+                <h1 id = "aboutMe">
                     About Me
                 </h1>
                 <img src = "images/Banner.jpg" width = 100%>
@@ -68,17 +70,34 @@
                     As of 2021 I am in my third year at the University of Melbourne where I have been studying a Bachelor of Science now majoring in Computing and Software Systems. When I was 11 my first programming was using drag and drop in Game Maker to make a platformer called "Chimpy and Baboony". In year 10 I picked up Python as a hobby and this then allowed me to get my first formal job at Codecamp where I would teach kids how to make their own games. This passion led me to swapping my major to Computing and Software Systems from Pharmacology. I am now teaching myself the MERN stack as I have found I enjoy developing on the full stack. On top of programming I enjoy playing chess, reading, walking and 3D printing. 
                 </p>
             </div>
-            <div id = "projects"> 
-                <h1>
+            <div> 
+                <h1 id = "projects">
                     Projects
                 </h1>
                 <p>
-                    Text
+                    <ul style="list-style-type: none; padding-left: 0; width: 100%;">
+                        <li style="float: left; width: 32%; margin-right: 1%">
+                            <a href = "pages/mern.html"><img src= "images/logo-plusvan-2x.png" style = "width: 100%;"></a>
+                            <h3>Snacks in a Van- MERN Stack</h3>
+                        </li>
+                        <li style="margin-right: 1%; float: left; width: 32%">
+                            <a href = "pages/cmap.html"><img src= "images/map- green.PNG" style = "width: 100%;"></a>
+                            <h3>Melbourne Locations- C</h3>
+                        </li>
+                        <li style="margin-right: 1%; float: left; width: 32%">
+                            <a href = "pages/java.html"><img src= "images/simulation- green.png" style = "width: 100%;"></a>
+                            <h3>Animal Simulation- Java</h3>
+                        </li>
+                        <li style="float: left; width: 32%; margin-right: 1%">
+                            <a href = "pages/unity.html"><img src= "images/scavenger_showdown_logo-Copy.png" style = "width: 100%;"></a>
+                            <h3>Scavenger Showdown- Unity</h3>
+                        </li>
+                        
+                    </ul>
                 </p>
             </div>
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            <div id = "contactMe"> 
-                <h1>
+            <div> 
+                <h1 id = "contactMe" style="clear: both;">
                     Contact Me
                 </h1>
                 <p>
@@ -100,20 +119,20 @@
                         <ul style="list-style-type: none; padding-left: 0; ">
                             <li style="float: left; margin-right: 10%; width: 15em">
                                 <label for="name" style="width: 100%">Name</label>
-                                <input type="text" name="name" id="name" style="height: 3em; width: 100%; display: block;"/>
+                                <input type="text" name="name" id="name" style="height: 2em; width: 100%; display: block;"/>
                             </li>
                             <li style="float: left; width: 20em">
                                 <label for="email">Email</label>
-                                <input type="text" name="email" id="email" style="height: 3em; width: 100%; display: block;"/>
+                                <input type="text" name="email" id="email" style="height: 2em; width: 100%; display: block;"/>
                             </li>
                         </ul>
                         <div style = "clear: both;">
                             <label for="message">Message</label><br>
-                            <input type="text" name="message" id="message" style="height: 25em; width: 100%"></input>
+                            <textarea type="text" name="message" id="message" style="height: 20em; width: 100%; "></textarea>
                         </div>
                     </div>
                     <br>
-                    <a href="" class="button submit">Send Message</a>
+                    <a href="" class="button">Send Message</a>
                 </form>
             </div>
         </main>
