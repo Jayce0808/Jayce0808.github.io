@@ -28,8 +28,9 @@ npm run dev
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Push to gh-pages branch where it is visible on Production
 
 ```sh
-npm run lint
+npm run deploy
 ```
+
