@@ -56,9 +56,10 @@ defineProps({
           <li>Bash</li>
           <li>C</li>
           <li>C#</li>
-          <li>HTML & CSS</li>
+          <li>HTML5 & CSS3</li>
           <li>Java</li>
           <li>Java Script</li>
+          <li>Jquery</li>
           <li>MERN Stack</li>
           <li>MySQL</li>
           <li>PHP</li>

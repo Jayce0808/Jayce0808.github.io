@@ -9,19 +9,46 @@ export const modalContents = {
       { "title": "Backend", "path": "portfolio-backend.png" },
     ]
   },
-  // expirely: {
-  //     title: "Expirely",
-  //     icon: "expirely_list.png",
-  //     body: `For this project I was tasked with implementing a simulation in which multiple classes interact with each other. I was supplied the base code for the simulation itself and had to implement all the classes and their interactions. Additionally I had to implement a frames system that could be modified through the arguments and a 'world' file which was a text document with instructions describing what needed to be loaded into each world as well as it's dimensions.
-  //             The purpose of this project was to familiarise myself with the concept of object oriented programming and creating UML diagrams to showcase my ideas before implementation. The simulation was made using Java.`,
-  //     gallery: [
-  //         { "title": "Flow Diagram", "path": "expirely_flow_diagram.png" },
-  //         { "title": "Wireframe", "path": "expirely_wireframe.png" },
-  //         { "title": "Login Screen", "path": "expirely_login.png" },
-  //         { "title": "Mockup", "path": "expirely_mockup.png" },
-  //         { "title": "Bitbucket Pipeline", "path": "expirely_pipeline.png" },
-  //     ]
-  // },
+  smash: {
+    title: "Smash",
+    icon: "smash-logo-green.png",
+    body: `
+            <strong>The Smash Portal</strong> is a WordPress site I developed during my time at Entrust ICT to streamline the customer onboarding process for partners.
+            Within the portal, customers can independently order services, enhancing efficiency and user experience.
+            Built from the ground up, the portal includes the following key features:
+
+          <ul>
+            <li>Generate quotes and order summaries as PDFs</li>
+            <li>Save leads as potential customers</li>
+            <li>Input billing details for automatic recurring payments</li>
+            <li>Automatically store order details in a separate CRM, enabling staff to monitor and take action</li>
+          </ul>
+          `,
+    tech_stack: [
+      "Wordpress",
+      "PHP",
+      "MySQL"
+    ],
+    gallery: [
+      { "title": "Orders", "path": "smash_orders.jpg" },
+      { "title": "New Quote", "path": "smash_quote.jpg" },
+      { "title": "Quote Summary", "path": "smash_quote_summary.jpg" },
+      { "title": "Quotes", "path": "smash_quotes.jpg" },
+      { "title": "Customer Details", "path": "smash_customer.jpg" }
+    ]
+  },
+  expirely: {
+    title: "Expirely",
+    icon: "expirely_list.png",
+    body: `  A small team of three developers and I worked on a mobile application designed to help users monitor their food purchases and track expiry dates. The app features built-in reminders, ensuring that users are notified when products are nearing their expiration. <br><br>   Currently, the project is a work in progress (WIP) and is being developed using the agile methodology. We are following two-week sprint cycles to ensure steady progress and iterative improvements. Additionally, the development process includes creating mockups to refine the user interface and experience before implementation.`,
+    gallery: [
+      { "title": "Flow Diagram", "path": "expirely_flow_diagram.png" },
+      { "title": "Wireframe", "path": "expirely_wireframe.png" },
+      { "title": "Login Screen", "path": "expirely_login.png" },
+      { "title": "Mockup", "path": "expirely_mockup.png" },
+      { "title": "Bitbucket Pipeline", "path": "expirely_pipeline.png" },
+    ]
+  },
   scavenger_showdown: {
     title: "Scavenger Showdown",
     icon: "scavenger_showdown_logo-Copy.png",
@@ -49,11 +76,11 @@ export const modalContents = {
 				The staff member can also stop displaying the van for customers when they are no longer serving with the click of a button.
 				My role on the team was to manage the database as well as the backend for the store itself. This was accomplished using mongo, mongoose, node js and a bit of handlebars.`,
     gallery: [
-      { "title": "Flow Diagram", "path": "snacks_in_a_van_1.PNG" },
-      { "title": "Flow Diagram", "path": "snacks_in_a_van_2.PNG" },
-      { "title": "Flow Diagram", "path": "snacks_in_a_van_3.PNG" },
-      { "title": "Flow Diagram", "path": "snacks_in_a_van_4.PNG" },
-      { "title": "Flow Diagram", "path": "snacks_in_a_van_5.PNG" }
+      { "title": "Map View", "path": "snacks_in_a_van_1.PNG" },
+      { "title": "Food Selection", "path": "snacks_in_a_van_2.PNG" },
+      { "title": "Order Summary", "path": "snacks_in_a_van_3.PNG" },
+      { "title": "Order Preparation", "path": "snacks_in_a_van_4.PNG" },
+      { "title": "Staff View", "path": "snacks_in_a_van_5.PNG" }
     ]
   },
   melbourne_locations: {
@@ -76,9 +103,9 @@ export const modalContents = {
     body: `For this project I was tasked with implementing a simulation in which multiple classes interact with each other. I was supplied the base code for the simulation itself and had to implement all the classes and their interactions. Additionally I had to implement a frames system that could be modified through the arguments and a 'world' file which was a text document with instructions describing what needed to be loaded into each world as well as it's dimensions.
                 The purpose of this project was to familiarise myself with the concept of object oriented programming and creating UML diagrams to showcase my ideas before implementation. The simulation was made using Java.`,
     gallery: [
-      { "title": "Flow Diagram", "path": "simulation.png" },
-      { "title": "Flow Diagram", "path": "simulation-1.PNG" },
-      { "title": "Flow Diagram", "path": "simulation-2.PNG" },
+      { "title": "Simulation 1", "path": "simulation.png" },
+      { "title": "Simulation 2", "path": "simulation-1.PNG" },
+      { "title": "Simulation 3", "path": "simulation-2.PNG" },
     ]
   },
   // "3d_viewer": {
