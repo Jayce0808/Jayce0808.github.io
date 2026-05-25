@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, watch } from 'vue';
+import { ref, computed } from 'vue';
 
 // ✅ Define props correctly
 const props = defineProps({
@@ -9,10 +9,6 @@ const props = defineProps({
 // ✅ Ensure images is always an array
 const images = computed(() => props.images || []);
 
-// ✅ Debugging: Watch images to check if it changes
-watch(images, (newVal, oldVal) => {
-  console.log("Images changed:", oldVal, "→", newVal);
-}, { immediate: true });
 
 const currentIndex = ref(0);
 

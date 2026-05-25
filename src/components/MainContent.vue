@@ -26,22 +26,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Flicker animation */
-@keyframes flicker {
-  0% {
-    opacity: 0.05;
-    background: radial-gradient(circle, green 20%, #000000 80%);
-  }
-
-  50% {
-    opacity: 0.025;
-    background: radial-gradient(circle, green 10%, #000000 90%);
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
 
 #mainContent {
   color: rgb(0, 238, 0);
@@ -136,9 +120,6 @@ textarea {
   display: inline-block;
 }
 
-div {
-  clear: "both";
-}
 
 .button {
   color: rgb(0, 238, 0);
@@ -163,7 +144,7 @@ body {
 body {
   scrollbar-width: thick;
   /* "auto" or "thin" */
-  scrollbar-color: rgba(0, 238, 0);
+  scrollbar-color: rgb(0, 238, 0) rgb(0, 11, 0);
   /* scroll thumb and track */
 }
 </style>

@@ -1,9 +1,4 @@
 <script setup>
-defineProps({
-    pageName: String,
-    imageName: String,
-    projectDescription: String,
-});
 </script>
 
 <template>
@@ -11,7 +6,7 @@ defineProps({
         <h1 id="aboutMe">
             About Me
         </h1>
-        <img src="/images/Banner.jpg" width=100%>
+        <img src="/images/Banner.jpg" width="100%" alt="Banner">
         <p>
             I'm Jayce, a full-stack developer with expertise in Next.js, Vue, TypeScript, PHP, and MySQL. With over
             three years of experience in web and software development, I specialize in building scalable applications,

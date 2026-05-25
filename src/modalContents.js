@@ -108,26 +108,4 @@ export const modalContents = {
       { "title": "Simulation 3", "path": "simulation-2.PNG" },
     ]
   },
-  // "3d_viewer": {
-  //   title: "3D Viewer",
-  //   icon: "simulation- green.png",
-  //   body: `For this project I was tasked with implementing a simulation in which multiple classes interact with each other. I was supplied the base code for the simulation itself and had to implement all the classes and their interactions. Additionally I had to implement a frames system that could be modified through the arguments and a 'world' file which was a text document with instructions describing what needed to be loaded into each world as well as it's dimensions.
-  //               The purpose of this project was to familiarise myself with the concept of object oriented programming and creating UML diagrams to showcase my ideas before implementation. The simulation was made using Java.`,
-  //   gallery: [
-  //     { "title": "Flow Diagram", "path": "simulation.png" },
-  //     { "title": "Flow Diagram", "path": "simulation-1.PNG" },
-  //     { "title": "Flow Diagram", "path": "simulation-2.PNG" },
-  //   ]
-  // },
-  // project_manager: {
-  //     title: "Project Manager",
-  //     icon: "simulation- green.png",
-  //     body: `For this project I was tasked with implementing a simulation in which multiple classes interact with each other. I was supplied the base code for the simulation itself and had to implement all the classes and their interactions. Additionally I had to implement a frames system that could be modified through the arguments and a 'world' file which was a text document with instructions describing what needed to be loaded into each world as well as it's dimensions.
-  //             The purpose of this project was to familiarise myself with the concept of object oriented programming and creating UML diagrams to showcase my ideas before implementation. The simulation was made using Java.`,
-  //     gallery: [
-  //         "simulation.png",
-  //         "simulation-1.PNG",
-  //         "simulation-2.PNG",
-  //     ]
-  // },
 };

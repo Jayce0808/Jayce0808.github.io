@@ -1,5 +1,9 @@
 <script setup>
+import { OhVueIcon, addIcons } from "oh-vue-icons";
 import { CoLinkedin } from "oh-vue-icons/icons";
+
+addIcons(CoLinkedin);
+
 defineProps({
   pageName: String,
   imageName: String,
@@ -15,18 +19,9 @@ defineProps({
     <p>
       Contact me using the form below or through any of the linked social media!
     </p>
-    <CoLinkedin></CoLinkedin>
-    <!--
-    <aside style="float:right">
-      <address style="margin: 0;">
-        <h2 style="margin: 0;">Social Media</h2>
-        <nav style="font-size: 1.5em;">
-          <CoLinkedin></CoLinkedin>
-          <a href="https://www.linkedin.com/in/jayceb/"><i class="fab fa-linkedin"></i></a>
-          <a href="https://github.com/Jayce0808"><i class="fab fa-github-square"></i></a>
-        </nav>
-      </address>
-    </aside> -->
+    <a href="https://www.linkedin.com/in/jayce0808/" target="_blank" rel="noopener noreferrer">
+      <OhVueIcon name="co-linkedin" scale="2" />
+    </a>
     <form method="POST" action="https://formspree.io/f/mbjbbleo" style="padding-bottom: 5vh; margin-bottom: 5vh">
       <div>
         <ul style="list-style-type: none; padding-left: 0; ">
@@ -36,7 +31,7 @@ defineProps({
           </li>
           <li style="float: left; width: 20em">
             <label for="email">Email</label>
-            <input type="text" name="email" id="email" style="height: 2em; width: 100%; display: block;" />
+            <input type="email" name="email" id="email" style="height: 2em; width: 100%; display: block;" />
           </li>
         </ul>
         <div style="clear: both;">

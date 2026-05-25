@@ -58,9 +58,6 @@ h2
   font-size: 2.5em;
 }
 
-div{
-  clear: "both";
-}
 
 h1::before { 
   display: block; 

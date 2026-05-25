@@ -2,11 +2,6 @@
 import ProjectButton from '../projects/ProjectButton.vue';
 import { modalContents } from '../../modalContents.js';
 
-defineProps({
-  pageName: String,
-  imageName: String,
-  projectDescription: String,
-});
 </script>
 
 <template>

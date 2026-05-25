@@ -5,7 +5,7 @@ defineProps({
     modalContent: Object
 });
 
-import Gallery from "../components/Gallery.vue";
+import Gallery from "./Gallery.vue";
 
 const emit = defineEmits(["close"]);
 const close = () => emit("close");

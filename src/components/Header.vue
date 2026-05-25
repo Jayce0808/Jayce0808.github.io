@@ -14,19 +14,11 @@
     </header>
 </template>
 
-<script>
-export default {
-    data() {
-        return {
-            isMenuOpen: false,
-        };
-    },
-    methods: {
-        toggleMenu() {
-            this.isMenuOpen = !this.isMenuOpen;
-        },
-    },
-};
+<script setup>
+import { ref } from 'vue';
+
+const isMenuOpen = ref(false);
+const toggleMenu = () => { isMenuOpen.value = !isMenuOpen.value; };
 </script>
 
 <style scoped>
